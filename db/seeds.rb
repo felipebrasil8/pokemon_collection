@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Game.create(name: "Pokémon", art: "https://tcg.pokemon.com/assets/img/global/logos/pt-br/tcg-logo.png", site: "https://tcg.pokemon.com/pt-br/")
+
+ProductType.create(name: "Baralho temático")

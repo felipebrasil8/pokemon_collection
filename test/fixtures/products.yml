@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  release_at: 2024-09-13
+  art: MyString
+  game: one
+  product_type: one
+  type: 
+
+two:
+  name: MyString
+  release_at: 2024-09-13
+  art: MyString
+  game: two
+  product_type: two
+  type: 

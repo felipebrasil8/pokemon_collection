@@ -4,6 +4,11 @@ FROM ruby:3.3
 # Instalar dependências necessárias
 RUN apt-get update -qq && apt-get install -y build-essential ruby-dev git curl libjemalloc2 libvips sqlite3 vim postgresql-client
 
+# Set the app directory and create an user
+ENV APP_PATH /app
+ENV BUNDLE_PATH $APP_PATH/.gems
+ENV BUNDLE_JOBS=3
+
 # Criar um diretório de trabalho para a aplicação
 WORKDIR /app
 

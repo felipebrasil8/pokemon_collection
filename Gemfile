@@ -57,3 +57,5 @@ group :test do
 end
 
 gem 'delegate_associations'
+
+gem "tailwindcss-rails", "~> 2.7"
